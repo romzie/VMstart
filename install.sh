@@ -3,7 +3,13 @@
 sudo apt install -y vim
 
 #KEYBOARD
-setxkbmap fr
+#setxkbmap fr
+
+#EMACS
+sudo apt install -y emacs
+
+#GIT
+sudo apt install -y git
 
 #ATOM
 sudo add-apt-repository -y ppa:webupd8team/atom
