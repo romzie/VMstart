@@ -2,7 +2,7 @@
 #VIM
 sudo apt install -y vim
 
-#KEYBOARD
+#KEYBOARD LANGUAGE
 #setxkbmap fr
 
 #EMACS
@@ -43,3 +43,7 @@ cmake -DWITH_QT=ON -DWITH_OPENGL=ON -DFORCE_VTK=ON -DWITH_TBB=ON -DWITH_GDAL=ON 
 make -j4
 sudo make install
 sudo ldconfig
+
+#PROXY
+sudo bash ./proxy_config.sh
+sudo shutdown -r now
