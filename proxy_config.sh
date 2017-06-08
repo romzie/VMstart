@@ -27,3 +27,7 @@ echo "Acquire::https::proxy \"http://dewdfwdf03proxy.wdf.sap.corp:8080\";" >> /e
 
 # Git
 git config --global http.proxy http://dewdfwdf03proxy.wdf.sap.corp:8080 
+
+# Atom
+apm config set proxy "http://dewdfwdf03proxy.wdf.sap.corp:8080"
+apm config set https_proxy proxy "http://dewdfwdf03proxy.wdf.sap.corp:8080"
